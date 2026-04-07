@@ -1,6 +1,13 @@
 # lua 目录下动态生成的记录文件，不应被 git 追踪
 lua/input_stats.lua
 lua/seq_words.lua
+
+# Rime 本地运行时生成的数据文件
+build/
+*.userdb/
+user.yaml
+installation.yaml
+
 # 本地测试打包时的临时文件
 dist
 pro-*-fuzhu-dicts
