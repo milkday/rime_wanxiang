@@ -1,0 +1,7 @@
+# Rime patch
+# encoding: utf-8
+
+patch:
+  speller/algebra:
+    __patch:
+      - wanxiang_algebra:/base/小鹤双拼

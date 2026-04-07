@@ -12,3 +12,6 @@ installation.yaml
 dist
 pro-*-fuzhu-dicts
 release_notes.md
+
+# 本地模型文件，不纳入 Git
+wanxiang-lts-zh-hans.gram

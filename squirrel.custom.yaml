@@ -1,0 +1,50 @@
+# Squirrel settings
+# encoding: utf-8
+
+patch:
+  style/color_scheme: wechat_light
+  style/color_scheme_dark: wechat_dark
+
+  preset_color_schemes/wechat_light:
+    name: 微信键盘浅色
+    horizontal: true
+    translucency: true
+    mutual_exclusive: false
+    alpha: 0.95
+    back_color: 0x33FFFFFF
+    border_height: 0
+    border_width: 8
+    candidate_format: "%c  %@ "
+    comment_text_color: 0x999999
+    corner_radius: 5
+    hilited_corner_radius: 5
+    font_face: PingFangSC
+    font_point: 24
+    hilited_candidate_back_color: 0x75B100
+    hilited_candidate_text_color: 0xFFFFFF
+    label_font_point: 12
+    text_color: 0x424242
+    inline_preedit: true
+
+  preset_color_schemes/wechat_dark:
+    name: 微信键盘深色
+    horizontal: true
+    translucency: true
+    mutual_exclusive: false
+    alpha: 0.95
+    back_color: 0x332e2925
+    border_height: 0
+    border_width: 8
+    candidate_format: "%c  %@ "
+    comment_text_color: 0x999999
+    corner_radius: 5
+    hilited_corner_radius: 5
+    font_face: PingFangSC
+    font_point: 24
+    hilited_candidate_back_color: 0x75B100
+    hilited_candidate_text_color: 0xFFFFFF
+    label_font_point: 20
+    text_color: 0x424242
+    label_color: 0x999999
+    candidate_text_color: 0xe9e9ea
+    inline_preedit: true
